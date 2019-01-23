@@ -6,7 +6,7 @@ class Solution(object):
         :type nums: List[int]
         :rtype: int
         """
-        #simplest
+        #Using hashmaps, Time complexity: O(N), Space comeplexity: O(N)
         max_frequency_element=nums[0]
         max_frequency=int(len(nums)/2)
         dict_num={}
